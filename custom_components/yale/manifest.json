@@ -1,10 +1,17 @@
 {
   "domain": "yale",
   "name": "Yale Home",
+  "categories": [
+    "security_safety.locks_access",
+    "security_safety.doorbells_intercoms"
+  ],
   "codeowners": [
     "@bdraco"
   ],
   "config_flow": true,
+  "connectivity": [
+    "cloud"
+  ],
   "dependencies": [
     "application_credentials",
     "cloud"
@@ -26,7 +33,7 @@
   ],
   "requirements": [
     "yalexs>=9.2.13",
-    "yalexs-ble>=4.0.1"
+    "yalexs-ble>=4.1.2"
   ],
-  "version": "2026.10.4"
+  "version": "2026.11.0"
 }
